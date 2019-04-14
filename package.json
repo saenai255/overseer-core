@@ -1,6 +1,6 @@
 {
   "name": "@jeaks03/overseer-core",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Just another TypeScript library",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -65,7 +65,7 @@
     ]
   },
   "dependencies": {
-    "@jeaks03/overseer": "^1.2.28",
+    "@jeaks03/overseer": "latest",
     "@types/node": "*"
   }
 }
