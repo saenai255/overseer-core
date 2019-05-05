@@ -39,9 +39,9 @@ export { AnonymousGuard } from '@jeaks03/overseer/build/security/guards/anonymou
 export { AuthenticatedGuard } from '@jeaks03/overseer/build/security/guards/authenticated.guard';
 export { Guard } from '@jeaks03/overseer/build/security/guards/guard';
 
-export { Authentication } from '@jeaks03/overseer/build/security/authentications/authentication';
+export { Authentication, PasswordEncoder } from '@jeaks03/overseer/build/security/authentications/authentication';
 export { BasicAuthentication } from '@jeaks03/overseer/build/security/authentications/basic-authentication';
-export { JWTAuthentication } from '@jeaks03/overseer/build/security/authentications/jwt-authentication';
+export { JWTAuthentication, ExplicitJwtToken, JwtToken } from '@jeaks03/overseer/build/security/authentications/jwt-authentication';
 export { NoAuthentication } from '@jeaks03/overseer/build/security/authentications/no-authentication';
 
 overseer.loadPackages([basePackage]);
